@@ -6,7 +6,8 @@ import { BrowserRouter } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-axios.defaults.baseURL = "http://localhost:5000/api";
+// axios.defaults.baseURL = "http://localhost:5000/api";
+axios.defaults.baseURL = "https://simple-todo-ts-api.onrender.com/api";
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <BrowserRouter>

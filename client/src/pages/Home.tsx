@@ -3,6 +3,7 @@ import Todos from "../components/Todos";
 import { TodoType } from "../types/types";
 import axios from "axios";
 import { toast } from "react-toastify";
+import { Link } from "react-router-dom";
 
 const Home = () => {
 
@@ -35,6 +36,8 @@ const Home = () => {
 
     return (
         <div className="wrapper">
+
+            <Link to={'/add'}> Add New Todo </Link>
 
             <p className="title"> Todos List </p>
 

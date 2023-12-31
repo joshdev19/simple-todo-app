@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(formData.parse());
 app.use(cors(
     {
-        origin: ["*", "http://localhost:5173"]
+        origin: ["*", "http://localhost:5173", "https://simple-todo-app-ts.netlify.app"]
     }
 ))
 
